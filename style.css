@@ -1,0 +1,87 @@
+body{
+  font-size: 20px;
+}
+/* --- Uppgift 1 ----*/
+.navbar{
+  background: black;
+}
+
+.navbar ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.navbar li{
+
+  padding: 5px;
+  float: left;
+}
+
+.navbar li a{
+  color: white;
+}
+
+@media screen and (max-width: 599px) {
+  .navbar {
+    background-color:white;
+    border: 2px solid black;
+    width: 300px;
+  }
+  .navbar ul{
+    margin: 0;
+  }
+
+  .navbar li{
+    padding: 0;
+    margin: 0;
+    float: none;
+  }
+  .navbar li a{
+    color: black;
+  }
+}
+
+/* ---- Uppgift 2 ---- */
+
+table{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+}
+
+/* ---- Uppgift 3 ---- */
+
+.box{
+  position: relative;
+  background: lightskyblue;
+  width: 700px;
+  height: 500px;
+}
+.box h1{
+  margin: 0;
+}
+
+#green{
+  position: absolute;
+  top: 200px;
+  left: 125px;
+  z-index: 1;
+  background: lightgreen;
+  width: 225px;
+  height: 125px;
+}
+
+#red{
+  position: absolute;
+  top: 240px;
+  left: 250px;
+  background: lightcoral;
+  width: 375px;
+  height: 125px;
+  text-align: right;
+}
+
+.bootstrap-list{
+  width: 50%;
+}
